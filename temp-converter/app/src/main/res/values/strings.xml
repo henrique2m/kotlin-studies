@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TempConverter</string>
+    <string name="rb_text_celsius">Celsius</string>
+    <string name="rb_text_fahrenheit">Fahrenheit</string>
+    <string name="btn_text_convert_temperature">CONVERT TEMPERATURE</string>
+    <string name="et_text_digite_a_temperatura">Digite a temperatura</string>
 </resources>

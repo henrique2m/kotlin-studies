@@ -8,7 +8,16 @@
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:padding="16dp">
+
+        <EditText
+            android:id="@+id/valueTamp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/et_text_digite_a_temperatura"
+            android:inputType="numberDecimal"
+            android:importantForAutofill="no" />
 
 
         <RadioGroup
@@ -21,27 +30,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="Celsius" />
+                android:text="@string/rb_text_celsius" />
 
             <RadioButton
                 android:id="@+id/fahrenheitRadio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="Fahrenheit" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="CONVERT TEMPERATURE" />
-
+                android:text="@string/rb_text_fahrenheit" />
         </RadioGroup>
 
-        <EditText
-            android:id="@+id/valueTamp"
+        <Button
+            android:id="@+id/buttonConvertTemperature"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal" />
-
+            android:background="@color/colorAccent"
+            android:text="@string/btn_text_convert_temperature"
+            android:textColor="@android:color/white" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.constraintlayout.widget.ConstraintLayout>
