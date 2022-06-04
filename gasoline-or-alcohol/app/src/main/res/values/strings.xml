@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gasoline-or-alcohol</string>
+    <string name="btn_calculate">Melhor Opção</string>
+    <string name="tv_result">Resultado</string>
+    <string name="tv_slogan">Saiba a melhor opção para abastecer o seu carro.</string>
+    <string name="et_gasoline">Preço Gasolina ex: 6.55</string>
+    <string name="et_alcohol">Preço Álcool ex: 4.44</string>
+    <string name="iv_description">logo</string>
+</resources>
